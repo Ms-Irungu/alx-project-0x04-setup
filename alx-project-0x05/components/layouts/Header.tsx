@@ -7,6 +7,7 @@ const Header: React.FC = () => {
 
   const pathname = usePathname();
   const { count } = useCount();
+  console.log("Header count:", count); // Add this line to log the count value
 
 
   return (
